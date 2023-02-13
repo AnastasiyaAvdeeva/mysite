@@ -1,5 +1,5 @@
-let loginButton = document.querySelector('.login-button');
-let loginPopUp = document.querySelector('.login-popup');
+let loginButton = document.querySelector('.entrance-button');
+let loginPopUp = document.querySelector('.entrance-popup');
 
 console.log(loginButton);
 console.log(loginPopUp);

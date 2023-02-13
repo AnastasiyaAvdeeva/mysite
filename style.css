@@ -11,7 +11,15 @@ html {
     flex-grow: 1;
 }
 
-
+.subtitle-text {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;   
+}
 
 /*header*/
 
@@ -28,7 +36,7 @@ html {
     align-items: center;
 }
 
-.site-menu {
+.menu-mysite {
     display: flex;
     align-self: stretch;
     padding: 0;
@@ -37,11 +45,11 @@ html {
     flex-wrap: wrap;
 }
 
-.site-menu > li {
+.menu-mysite > li {
     display: flex;
 }
 
-.menu-link {
+.menu-click {
     display: flex;
     align-items: center;
     padding: 0 18px;
@@ -54,14 +62,14 @@ html {
    
 }
 
-.menu-link:hover {
+.menu-click:hover {
     background-color: #FFFFFF;
     color: #213B7E;
     text-decoration: none;
    
 }
 
-.login-button {
+.entrance-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +85,7 @@ html {
 
 /*popup*/
 
-.login-popup {
+.entrance-popup {
     display: none;
     position: absolute;
     z-index: 2;
@@ -95,7 +103,7 @@ html {
 
 }
 
-.login-heading {
+.entrance-heading {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -105,13 +113,13 @@ html {
     text-align: center;
 }
 
-.login-form {
+.authorization-form {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.login-form > input {
+.authorization-form > input {
     width: 100%;
     max-width: 500px;
     min-height: 55px;
@@ -119,7 +127,7 @@ html {
     border: 1px solid #808080;
 }
 
-.login-input {
+.authorization-input {
    
     width: 444px;
     min-height: 54px;
@@ -131,7 +139,7 @@ html {
     padding: 10px;
 }
 
-.login-password {
+.authorization-password {
     width: 444px;
     min-height: 54px;
     background-color: #FFFFFF;
@@ -178,7 +186,7 @@ html {
     top: 113px;
 }
 
-.main-heading {
+.basic-heading {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -205,7 +213,7 @@ h2 {
 }
 
 
-.intro-text {
+.basic-text {
     width: 100%;
     max-width: 634px;
     height: 127px;
@@ -221,13 +229,76 @@ em {
 
 }
 
+/*students*/
+
+.students {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.student {
+    padding-left: 45px;
+
+
+}
+
+.student-firstname {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+.student:nth-child(3n+1) {
+background-color: red;
+}
+
+/* about */
+
+
+.site-photo {
+    box-sizing: border-box;
+    width: 820px;
+    height: 549.33px;
+    left: 286px;
+    top: 217px;
+    background: url(video.png);
+    border: 2px solid #EA5D21;
+}
+
+/* contacts*/
+
+.photo-map {
+    
+    text-align: center;
+    width: 1268px;
+    height: 370px;
+    background: url(goole-map.jpg);
+   
+}
+
+.our-contacts {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+
+
 /*footer*/
 
 .footer {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    align-items: center;
     box-sizing: border-box;
     width: 100%;
     max-width: 1300px;
@@ -252,7 +323,7 @@ em {
     
 }
 
-.innopo-link {
+.innopolis-link {
     
     font-family: 'Roboto';
     font-style: normal;
